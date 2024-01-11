@@ -1,11 +1,17 @@
 const { bubS } = require("../sorting/bubble-sort");
+const { shuffle } = require("../../shuffle/shuffle");
+const { Range } = require("../../Range/Range");
 
 const cases: number[][] = [
-   [1, 2, 3, 4, 5],
-   [1, 3, 2, 4, 5],
-   [1, 2, 4, 3, 5],
-   [5, 4, 3, 2, 1]
+   Array(5),
+   Array(5),
+   Array(5),
+   Array(5),
+   Array(5)
 ];
+cases.forEach(row => {
+});
+
 describe("An array sorted by 'bubble sort'.", () => {
    test.each(cases)
    	("Should be in ascending order.", () => {
@@ -15,3 +21,13 @@ describe("An array sorted by 'bubble sort'.", () => {
 	  );
    });
 });
+
+/*
+test.each([
+  [1, 1, 2],
+  [1, 2, 3],
+  [2, 1, 3],
+])('.add(%i, %i)', (a, b, expected) => {
+  expect(a + b).toBe(expected);
+});
+*/
