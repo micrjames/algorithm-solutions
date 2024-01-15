@@ -1,17 +1,16 @@
 exports.insS = (arr: number[]): number[] => {
-   let key: number, j: number;
    const n = arr.length;
 
    for(let i = 1; i < n; i++) {
-	  key = arr[i];
-	  j = i - 1;
+	  let current = arr[i];
+	  let j = i - 1;
 
-	  while(j >= 0 && arr[j] > key) {
+	  while(j >= 0 && arr[j] > current) {
 		 arr[j + 1] = arr[j];
-		 j = j + 1;
+		 j--;
 	  }
 
-	  arr[j + 1] = key;
+	  arr[j + 1] = current;
    }
 
    return arr;

@@ -1,4 +1,9 @@
-exports.mergeS = (arr: number[]): number[] => {
-	const n = arr.length;
-	return arr;
-}
+const merge = (arr: number[]): number[] => {
+   return [];
+};
+
+const mergeS = (arr: number[]): number[] => {
+   return [];
+};
+
+exports.mergeS = mergeS;
