@@ -1,4 +1,4 @@
-const { insS } = require("../sorting/bubble-sort");
+const { insS } = require("../sorting/insertion-sort");
 const { Range } = require("../../Range/Range");
 const { shuffle } = require("../../shuffle/shuffle");
 const { Random } = require("../../Random/Random");
@@ -12,7 +12,7 @@ for(let i = 1; i < numCases; i++) {
    cases[i] = shuffle([...cases[0]]);
 }
 
-describe("An array sorted by 'bubble sort'.", () => {
+describe("An array sorted by 'insert sort'.", () => {
    test("Should be an array.", () => {
 	  for(let i = 0; i < cases.length; i++) {
 	  	 expect(insS(cases[i])).toEqual(expect.arrayContaining([expect.anything()]));
