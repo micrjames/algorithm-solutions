@@ -14,8 +14,6 @@ for(let i = 1; i < numCases; i++) {
 
 describe("An array sorted by 'merge sort'", () => {
    test("Should be an array.", () => {
-	  console.log(cases[3]);
-	  console.log(mergeS(cases[3]));
 	  for(let i = 0; i < cases.length; i++) {
 	  	 expect(mergeS(cases[i])).toEqual(expect.arrayContaining([expect.anything()]));
 	  }
