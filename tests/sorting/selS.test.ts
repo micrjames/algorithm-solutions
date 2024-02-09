@@ -1,7 +1,7 @@
-const { selS } = require("../sorting/selection-sort");
-const { Range } = require("../../Range/Range");
-const { shuffle } = require("../../shuffle/shuffle");
-const { Random } = require("../../Random/Random");
+const { selS } = require("../../sorting/selection-sort");
+const { Range } = require("../../../Range/Range");
+const { shuffle } = require("../../../shuffle/shuffle");
+const { Random } = require("../../../Random/Random");
 
 const numCases = new Random(4, 10).integer;
 const seqSize = 5;
