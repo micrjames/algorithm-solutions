@@ -1,0 +1,5 @@
+They are useful in a variety of applications, broadly speaking, we have:-
+	•	Searching in a sorted and rotated array: If an array is sorted in ascending order and then rotated by some number of positions, it can still be searched efficiently using binary search.
+	•	Game development: In game development, array rotation is useful for implementing various game mechanics, such as rotating a game board or changing the orientation of game objects.
+	•	Audio and video processing: In audio and video processing, array rotation can be used to apply effects such as pitch shifting, time stretching, and stereo panning.
+	•	Text editing: In text editing software, array rotation can be used to implement text selection and deletion operations, as well as undo and redo functionality.
