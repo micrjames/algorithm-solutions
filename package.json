@@ -1,7 +1,7 @@
 {
   "name": "algorithm-solutions",
   "version": "1.0.0",
-  "description": "",
+  "description": "A place for solutions to some of the algorithms I've implemented as I study through them.",
   "main": "index.js",
   "directories": {
     "test": "tests"
