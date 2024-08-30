@@ -1,4 +1,4 @@
-exports.selS = (arr: number[]): number[] => {
+export const selS = (arr: number[]): number[] => {
    const n = arr.length;
    let min_idx: number;
    for(let i = 0; i < n - 1; i++) { 

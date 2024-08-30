@@ -16,7 +16,7 @@ const merge = (left: number[], right: number[]): number[] => {
          .concat(right.slice(rightIndex));
 }
 
-const mergeS = (unsortedArray: number[]): number[] => {
+export const mergeS = (unsortedArray: number[]): number[] => {
    if (unsortedArray.length <= 1) {
       return unsortedArray;
    }
@@ -27,5 +27,3 @@ const mergeS = (unsortedArray: number[]): number[] => {
 
    return merge(mergeS(left), mergeS(right));
 };
-
-exports.mergeS = mergeS;

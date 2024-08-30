@@ -1,7 +1,7 @@
-const { mergeS } = require("../../sorting/merge-sort");
-const { Range } = require("../../../Range/Range");
-const { shuffle } = require("../../../shuffle/shuffle");
-const { Random } = require("../../../Random/Random");
+import { mergeS } from "../../sorting/merge-sort";
+import { Range } from "../../Range/Range";
+import  { shuffle } from "../../shuffle/shuffle";
+import { Random } from "../../Random/Random";
 
 const numCases = new Random(4, 10).integer;
 const seqSize = 5;

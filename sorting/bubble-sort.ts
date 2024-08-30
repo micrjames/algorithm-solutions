@@ -1,4 +1,4 @@
-exports.bubS = (arr: number[]): number[] => {
+export const bubS = (arr: number[]): number[] => {
    const n = arr.length;
    // let temp: number;
    let swapped: boolean;
